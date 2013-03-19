@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<title>爱读书-注册</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+
+	<script type="text/javascript">
+	</script>
+
+	<style type="text/css">
+	</style>
+</head>
+<body>
+	<script type="text/javascript">
+		var error = document.URL.match(/error=(.+)/);
+		if(error && error[1]){
+			document.write(decodeURI(error[1]));
+		}
+	</script>
+	<div>
+		<form action="./usersignup" method="post">
+			<label>用户名：<input type="text" name="name"/></label>
+			<br />
+			<br />
+			<label>密　码：<input type="password" name="pass"/></label>
+			<br />
+			<br />
+			<input type="submit" value="注册"/>
+		</form>
+		<br />
+		<a href="./login.html">已有账号，登陆</a>
+	</div>
+</body>
+</html> 

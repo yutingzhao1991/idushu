@@ -1,0 +1,10 @@
+{
+   "name":"idushu",
+   "main":"./app.js",
+   "version": "0.0.1", 
+   "dependencies": {
+    "express": "2.5.1",
+    "mongoskin": "0.4.2",
+    "validator": "0.3.7"
+   }
+}

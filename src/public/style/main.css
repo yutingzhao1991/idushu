@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	height: 50px;
+	width: 100%;
+	position: relative;
+	background-color: #aaf;
+}
+
+#addBook{
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	left: 5px;
+	top: 9px;
+	cursor: pointer;
+	background-image: url(../images/add.png);
+}
+
+.setting{
+	position: absolute;
+	right: 5px;
+	top: 9px;
+	height: 32px;
+	width: 32px;
+	background-image: url(../images/more.png);
+	cursor: pointer;
+}
+
+#bookList{
+	position: relative;
+}
+
+.bookItem{
+	padding: 2px;
+	height: 36px;
+	line-height: 36px;
+	border-bottom: 1px solid #DDD;
+	position: relative;
+}
+.bookName{
+	
+}
+.removeBook{
+	position: absolute;
+	height: 16px;
+	width: 16px;
+	right: 5px;
+	top: 10px;
+	cursor: pointer;
+	background-image: url(../images/delete.png);
+}
+
+#settingBox{
+	width: 200px;
+	height: 300px;
+	z-index: 3;
+	border: 1px solid #000;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -100px;
+	margin-top: -150px;
+	background-color: #DDD;
+}
+
+#settingBox ul{
+	list-style: none;
+	margin: 0px;
+	padding: 10px;
+}
+
+#settingBox li{
+	margin: 15px;
+
+}
+
+.closeBtn{
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	background-image: url(../images/close.png);
+	cursor: pointer;
+}
